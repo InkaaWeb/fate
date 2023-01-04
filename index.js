@@ -13,7 +13,7 @@ client.categories = fs.readdirSync("./commands/");
     require(`./handlers/${handler}`)(client);
 }); 
 client.on('ready', () => {
-    client.user.setActivity(`Testing...`)
+    client.user.setActivity(`Fate Community 😈`)
     console.log(`${client.user.username} ✅`)
 })
 client.on('message', async message =>{
